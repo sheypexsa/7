@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
+
+*{
+    font-family:  'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+   
+}
+.rightcont{
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+
+}
+.greatbox{
+    text-align: center;
+    color: white;
+}
+.rightcont h4{
+   color: white;
+   
+
+}    
+
+
+.intro{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro h1{
+  color: rgb(255, 254, 254);
+  font-size: 24px;
+}
+.intro span{
+    color: darkgray;
+}
+.reaction{
+    border: 1px solid red;
+    width: 173px;
+    height: 30px;
+}
+.memory{
+    border: 1px solid gold;
+    width: 173px;
+    height: 30px;
+}
+.verbal{
+    border: 1px solid mediumspringgreen;
+    width: 173px;
+    height: 30px;
+}
+.visual{
+    border:1px solid blue;
+    width: 173px;
+    height: 30px;
+}
